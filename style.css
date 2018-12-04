@@ -1,0 +1,129 @@
+
+.items{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.item{
+    border: solid;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 550px;
+    padding-bottom: 10px; 
+    margin-top:10px;
+  }
+  .header{
+    width: 80%;
+    margin: auto;
+    border: solid;
+    display:flex;
+    height: 50px;
+  }
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    display:flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    margin-left: 95%;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-submit{
+    width : 100px;
+    height : 50px;
+    margin-top : 25px;
+}
+  .total-price-box{
+    flex:2;
+    display:flex;
+  }
+  .menu{
+    flex:1;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+.buttons{
+    display: flex;
+    position:relative;
+    width: 100%;
+}
+.remove-btn{
+    width : 25px;
+    height : 25px;
+    position: absolute;
+    left: 20px;
+    top:20px;
+    background-color: white;
+}
+.like img{
+    width : 25px;
+    height : 25px;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+.image img{
+  margin-top: 50px;
+  width: 150px;
+  height: auto;
+
+}
+.item-description{
+    width : 150px;
+    height : auto;
+}
+.quantity-value{
+    border:solid;
+    width : 30px;
+    text-align:center
+}
+.plus-btn{
+    height: 15px;
+    background-image: url("https://img.freepik.com/icones-gratuites/ajouter-le-bouton-de-l-39-interface-circulaire_318-74034.jpg?size=338&ext=jpg");
+    background-size: contain;
+}
+.minus-btn{
+    height: 15px;
+    background-image: url("https://img.freepik.com/icones-gratuites/le-signe-moins-en-bouton-circulaire_318-72275.jpg?size=338&ext=jpg");
+    background-size: contain;
+}
